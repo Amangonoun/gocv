@@ -14,6 +14,7 @@ void AsyncArray_Close(AsyncArray a) {
     delete a;
 }
 
+
 const char* AsyncArray_GetAsync(AsyncArray async_out,Mat out) {
     try {
        async_out->get(*out);
